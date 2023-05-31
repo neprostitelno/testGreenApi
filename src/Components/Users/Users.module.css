@@ -1,0 +1,59 @@
+.form{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(11,20,26,0.3);
+    display: flex;
+    position: relative;
+}
+.form:after{
+    content: " ";
+    background: #eae6df;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 37%;
+}
+.avatar{
+    width: 60px;
+    border-radius: 50%;
+}
+.userName{
+    padding-left: 20px;
+    text-align: left;
+}
+.users{
+    padding: 58px 52px 52px;
+    font-size: 22px;
+}
+.dialogs{
+    padding: 58px 52px 52px;
+}
+.user{
+    border: none;
+    background-color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+.user:hover{
+    color: #00a884;
+}
+
+.title{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.notification{
+    font-size: 14px;
+    color: #00a884;
+    border: 1px solid #00a884;
+    border-radius: 5px;
+    padding: 3px;
+    width: 80%;
+}
+.name{
+    display: flex;
+}

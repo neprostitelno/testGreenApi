@@ -1,0 +1,11 @@
+.header{
+    grid-area: header;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    font-size: 28px;
+    font-weight: normal;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+}

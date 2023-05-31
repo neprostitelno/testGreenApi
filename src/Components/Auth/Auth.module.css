@@ -1,0 +1,55 @@
+.auth {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 58px 52px 52px;
+    box-shadow: 10px 10px 10px rgba(11,20,26,0.3);
+}
+
+.title {
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: normal;
+    color: #41525d;
+}
+
+.form {
+    font-size: 22px;
+}
+
+.input{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 900px;
+    padding: 5px;
+}
+
+.button{
+    font-size: 22px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 4px;
+}
+.button:hover{
+    background-color: #00a884;
+    color: white;
+}
+
+.error{
+    font-size: 24px;
+    color: red;
+}
+
+.buttonOut{
+    font-size: 22px;
+    background-color: #00a884;
+    border: none;
+    color: #111b21;
+}
+.buttonOut:hover{
+    color: white;
+}
